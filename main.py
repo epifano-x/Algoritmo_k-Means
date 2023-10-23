@@ -34,7 +34,6 @@ segmented_image = cv2.cvtColor(segmented_image, cv2.COLOR_RGB2BGR)
 
 
 # Mostrando a imagem original e a imagem segmentada
-#cv2.imshow('Imagem Original', image)
 cv2.imshow('Imagem Segmentada', segmented_image)
-cv2.waitKey(0)
+cv2.waitKey(0) 
 cv2.destroyAllWindows()
